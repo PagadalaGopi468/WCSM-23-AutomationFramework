@@ -86,7 +86,7 @@ public class ListenersImplementationClass implements ITestListener{
 		ExtentSparkReporter htmlReport = new ExtentSparkReporter(".\\ExtentReports\\Report-"+new JavaUtility().getSystemDateInFormat()+".html");
 		htmlReport.config().setDocumentTitle("Vtiger Execution Report");
 		htmlReport.config().setReportName("Vtiger Execution Report");
-		htmlReport.config().setTheme(Theme.DARK);
+		htmlReport.config().setTheme(Theme.STANDARD);
 		
 		report = new ExtentReports();
 		report.attachReporter(htmlReport);
