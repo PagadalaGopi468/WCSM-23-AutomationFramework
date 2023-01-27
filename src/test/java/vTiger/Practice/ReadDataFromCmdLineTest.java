@@ -20,6 +20,10 @@ public class ReadDataFromCmdLineTest {
 		System.out.println(PASSWORD);
 		
 		System.out.println("Eexecuted");
+		
+		
+		
+		
 	}
 
 }
